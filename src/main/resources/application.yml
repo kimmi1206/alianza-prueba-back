@@ -1,15 +1,12 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: postgres
-    password: postgres
-    url: jdbc:postgresql://localhost:5432/alianzaclients
-  #  username: ${PGUSERNAME}
-  #  password: ${PGPASSWORD}
-  #  url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDBNAME}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    url: jdbc:postgresql://${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
 
   jpa:
-    show-sql: true
+    show-sql: false
     generate-ddl: true
     hibernate:
       ddl-auto: update
