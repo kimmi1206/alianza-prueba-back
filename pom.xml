@@ -10,7 +10,6 @@
     </parent>
     <groupId>com.alianza</groupId>
     <artifactId>clients</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>clients</name>
     <description>Spring Boot Backend</description>
     <properties>
