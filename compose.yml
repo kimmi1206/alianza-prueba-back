@@ -19,8 +19,6 @@ services:
 
   database:
     image: 'postgres:latest'
-    extra_hosts:
-      - 'host.docker.internal:host-gateway'
     ports:
       - '5432:5432'
     environment:

@@ -45,5 +45,5 @@ public class Client {
     private LocalDate endDate;
 
     @Column(name = "date_added", nullable = false)
-    private LocalDate dataAdded;
+    private LocalDate dateAdded;
 }

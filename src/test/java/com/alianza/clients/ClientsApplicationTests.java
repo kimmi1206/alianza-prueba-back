@@ -78,7 +78,7 @@ class ClientsApplicationTests {
                 .phone(3219876543L)
                 .startDate(Dates.getCurrentDate())
                 .endDate(Dates.getCurrentDate())
-                .dataAdded(Dates.getCurrentDate())
+                .dateAdded(Dates.getCurrentDate())
                 .build();
     }
 }
